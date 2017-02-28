@@ -10,12 +10,12 @@ using System.Windows.Forms;
 
 namespace Project_4
 {
-    public partial class Form1 : Form
+    public partial class randomNumGame : Form
     {   //gloabal variable used by Form1_Load and userGuess_btn_Click to access random number generated
         private int correctGuess;
         private int count = 1;
 
-        public Form1()
+        public randomNumGame()
         {
             InitializeComponent();
         }

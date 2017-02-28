@@ -1,6 +1,6 @@
 ﻿namespace Project_4
 {
-    partial class Form1
+    partial class randomNumGame
     {
         /// <summary>
         /// Required designer variable.
@@ -47,7 +47,7 @@
             this.choiceListBox.Location = new System.Drawing.Point(117, 137);
             this.choiceListBox.Name = "choiceListBox";
             this.choiceListBox.Size = new System.Drawing.Size(83, 30);
-            this.choiceListBox.TabIndex = 0;
+            this.choiceListBox.TabIndex = 7;
             // 
             // userGuess_btn
             // 
@@ -67,7 +67,7 @@
             this.exit_btn.Name = "exit_btn";
             this.exit_btn.Size = new System.Drawing.Size(75, 23);
             this.exit_btn.TabIndex = 2;
-            this.exit_btn.Text = "Exit";
+            this.exit_btn.Text = "E&xit";
             this.exit_btn.UseVisualStyleBackColor = true;
             this.exit_btn.Click += new System.EventHandler(this.exit_btn_Click);
             // 
@@ -77,7 +77,7 @@
             this.choose.Location = new System.Drawing.Point(12, 73);
             this.choose.Name = "choose";
             this.choose.Size = new System.Drawing.Size(93, 13);
-            this.choose.TabIndex = 3;
+            this.choose.TabIndex = 4;
             this.choose.Text = "Enter your number";
             // 
             // userInputTextBox
@@ -85,7 +85,7 @@
             this.userInputTextBox.Location = new System.Drawing.Point(117, 70);
             this.userInputTextBox.Name = "userInputTextBox";
             this.userInputTextBox.Size = new System.Drawing.Size(100, 20);
-            this.userInputTextBox.TabIndex = 4;
+            this.userInputTextBox.TabIndex = 0;
             // 
             // instruction
             // 
@@ -94,7 +94,7 @@
             this.instruction.Location = new System.Drawing.Point(12, 33);
             this.instruction.Name = "instruction";
             this.instruction.Size = new System.Drawing.Size(323, 15);
-            this.instruction.TabIndex = 5;
+            this.instruction.TabIndex = 3;
             this.instruction.Text = "Play a Guessing Game! Pick a number between 1 and 100.";
             // 
             // choiceList_Label
@@ -112,7 +112,7 @@
             this.showRandomLabel.Location = new System.Drawing.Point(10, 181);
             this.showRandomLabel.Name = "showRandomLabel";
             this.showRandomLabel.Size = new System.Drawing.Size(123, 13);
-            this.showRandomLabel.TabIndex = 7;
+            this.showRandomLabel.TabIndex = 8;
             this.showRandomLabel.Text = "Random number chosen";
             // 
             // guessMessageLabel
@@ -122,7 +122,7 @@
             this.guessMessageLabel.Location = new System.Drawing.Point(12, 103);
             this.guessMessageLabel.Name = "guessMessageLabel";
             this.guessMessageLabel.Size = new System.Drawing.Size(205, 23);
-            this.guessMessageLabel.TabIndex = 8;
+            this.guessMessageLabel.TabIndex = 5;
             // 
             // resultPictureBox
             // 
@@ -134,8 +134,9 @@
             this.resultPictureBox.TabStop = false;
             this.resultPictureBox.Visible = false;
             // 
-            // Form1
+            // randomNumGame
             // 
+            this.AcceptButton = this.userGuess_btn;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(255)))), ((int)(((byte)(185)))));
@@ -150,8 +151,8 @@
             this.Controls.Add(this.exit_btn);
             this.Controls.Add(this.userGuess_btn);
             this.Controls.Add(this.choiceListBox);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "randomNumGame";
+            this.Text = "Random Number Game";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.resultPictureBox)).EndInit();
             this.ResumeLayout(false);
