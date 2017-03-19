@@ -10,4 +10,4 @@ Enhance the game so it keeps count of the number of guesses that the user makes.
 ##Thoughts
 Learning more about generating random numbers and loops. 
 
-![alt text](https://github.com/Inteligirl/c-sharp-random-number/blob/master/random_number.png Random Number")
+![alt text](https://github.com/Inteligirl/c-sharp-random-number/blob/master/random_number.png "Random Number")
